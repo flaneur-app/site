@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Flâneur">
+  <title>Flâneur</title>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3a6ea5"/>
+      <stop offset="1" stop-color="#c0713a"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#g)"/>
+  <!-- A winding path that ends in a play triangle: wandering, then watching. -->
+  <path d="M12 50 C 22 50, 18 34, 28 34 S 34 20, 40 20" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+  <path d="M40 11 L54 20 L40 29 Z" fill="#fff"/>
+</svg>

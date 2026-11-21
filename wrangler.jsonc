@@ -1,0 +1,15 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  // flaneur.baxyz.dev: the VitePress site, built by Workers Builds with `pnpm run build`.
+  "name": "site-dev-baxyz-flaneur",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./docs/.vitepress/dist",
+    "not_found_handling": "404-page",
+  },
+  "workers_dev": true,
+  "preview_urls": true,
+  // Required by `wrangler preview` (branch previews from Workers Builds). Empty: previews use the top-level settings.
+  "previews": {},
+  "routes": [{ "pattern": "flaneur.baxyz.dev", "custom_domain": true }],
+}
